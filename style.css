@@ -152,7 +152,7 @@ html {
   font-size: 1.4rem;
 }
 .background .outBox .wrapper .contents .contentTop .contentsTitleEdit {
-  width: 200px;
+  width: 300px;
   height: 23px;
 }
 .background .outBox .wrapper .contents .contentTop .contentsTitleEdit:focus {
@@ -171,15 +171,15 @@ html {
   cursor: pointer;
 }
 .background .outBox .wrapper .contents .contentTop .contentEditBtn:nth-of-type(1) {
-  right: 270px;
+  right: 55px;
 }
 .background .outBox .wrapper .contents .contentTop .contentEditBtn:nth-of-type(2) {
-  right: 230px;
+  right: 15px;
 }
 .background .outBox .wrapper .contents .contentTop .titleEditBtn {
   position: absolute;
   top: 0;
-  right: 270px;
+  right: 55px;
   background: #bbb;
   color: #fff;
   padding: 3px 6px;
