@@ -16,6 +16,7 @@ a {
 
 html {
   overflow: hidden;
+  font-size: 14px;
 }
 
 .background {
@@ -32,9 +33,9 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1500px;
-  height: 860px;
-  padding-right: 290px;
+  width: 1000px;
+  height: 600px;
+  padding-right: 180px;
   padding-bottom: 30px;
   background: url("./img/home.gif") center/cover no-repeat;
   background-size: cover;
@@ -43,12 +44,12 @@ html {
 }
 .background .outBox .wrapper {
   display: flex;
-  height: 650px;
+  height: 435px;
 }
 .background .outBox .wrapper .profile {
-  width: 300px;
+  width: 180px;
   height: 100%;
-  gap: 50px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,15 +61,15 @@ html {
   color: #fa822e;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileFeel form select {
-  cursor: pointer;
-  width: 250px;
+  width: 180px;
   height: 30px;
   text-align: center;
   font-size: 1rem;
+  cursor: pointer;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileimg {
   margin-top: 20px;
-  width: 250px;
+  width: 180px;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileimg img {
   width: 100%;
@@ -76,13 +77,14 @@ html {
      object-fit: cover;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileMessage {
-  width: 250px;
+  width: 100%;
   height: 80px;
   margin-top: 20px;
+  font-size: 13px;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileMessageEdit {
   width: 100%;
-  height: 100px;
+  height: 80px;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .EditBtn {
   width: 40px;
@@ -97,8 +99,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 88%;
-  margin-top: 150px;
+  width: 100%;
+  margin-top: 30px;
   border-bottom: 1px solid #999;
   cursor: pointer;
 }
@@ -118,7 +120,7 @@ html {
   flex-direction: column;
   gap: 4px;
   padding: 20px 6px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .background .outBox .wrapper .profile .profileBody .profileBottom > span:nth-child(1) {
   color: #999;
@@ -130,7 +132,7 @@ html {
   color: #fa822e;
 }
 .background .outBox .wrapper .contents {
-  width: 750px;
+  width: 550px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -141,16 +143,17 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 40px;
+  padding-right: 100px;
 }
 .background .outBox .wrapper .contents .contentTop .contentsTitle {
   display: flex;
-  gap: 50px;
+  gap: 10px;
   font-size: 1.4rem;
 }
 .background .outBox .wrapper .contents .contentTop .contentsTitleEdit {
-  width: 400px;
-  height: 26px;
+  width: 270px;
+  height: 23px;
 }
 .background .outBox .wrapper .contents .contentTop .contentsTitleEdit:focus {
   outline: none;
@@ -171,7 +174,7 @@ html {
   right: 270px;
 }
 .background .outBox .wrapper .contents .contentTop .contentEditBtn:nth-of-type(2) {
-  right: 220px;
+  right: 230px;
 }
 .background .outBox .wrapper .contents .contentTop .titleEditBtn {
   position: absolute;
@@ -205,13 +208,13 @@ html {
 .background .outBox .wrapper .navigation .navItems {
   position: absolute;
   top: 70px;
-  right: -154px;
+  right: -117px;
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 .background .outBox .wrapper .navigation .navItems .navItem {
-  width: 90px;
+  width: 85px;
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid #55b2e4;

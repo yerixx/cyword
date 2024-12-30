@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   gap: 40px;
-  padding: 40px 60px 50px 40px;
+  padding: 18px 60px 50px 240px;
   overflow: hidden;
 }
 .contents .contentTop {
@@ -45,7 +45,7 @@ body {
   padding: 0 10px;
 }
 .contents .contentTop .contentMiniroom div:nth-child(1) span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 .contents .contentTop .contentMiniroom div:nth-child(1) .on {
@@ -53,9 +53,9 @@ body {
   color: #55b2e4;
 }
 .contents .contentTop .contentMiniroom div:nth-child(2) {
-  padding: 20px 0 0 10px;
-  width: 700px;
-  height: 350px;
+  padding: 20px 0 0 12px;
+  width: 500px;
+  height: 220px;
 }
 .contents .contentTop .contentMiniroom div:nth-child(2) img {
   width: 100%;
@@ -65,8 +65,8 @@ body {
   border: 1px solid #999;
 }
 .contents .contentTop .contentIlchon {
-  width: 700px;
-  height: 120px;
+  width: 500px;
+  height: 80px;
   padding: 20px 0 0 10px;
 }
 .contents .contentTop .contentIlchon form {
@@ -78,6 +78,7 @@ body {
   background: #eee;
   border: 1px solid #ddd;
   padding: 12px 10px;
+  font-size: 0.9rem;
 }
 .contents .contentTop .contentIlchon form label b {
   color: #55b2e4;
@@ -88,18 +89,18 @@ body {
   cursor: pointer;
 }
 .contents .contentTop .contentIlchon form label input[type=text] {
-  width: 580px;
+  width: 380px;
   height: 28px;
   padding: 0 5px;
 }
 .contents .contentTop .contentIlchon form label input[type=text]::-moz-placeholder {
   padding: 0 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #bbb;
 }
 .contents .contentTop .contentIlchon form label input[type=text]::placeholder {
   padding: 0 5px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #bbb;
 }
 .contents .contentTop .contentIlchon form label input[type=text]:focus {
@@ -119,6 +120,7 @@ body {
   width: 100%;
   height: 100%;
   overflow-y: scroll;
+  font-size: 0.9rem;
 }
 .contents .contentTop .contentIlchon .ilchonText li {
   width: 100%;
@@ -133,6 +135,6 @@ body {
   border: none;
   background: none;
   color: #999;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   cursor: pointer;
 }/*# sourceMappingURL=home.css.map */

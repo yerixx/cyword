@@ -6,6 +6,7 @@ $theme-color: #55b2e4;
 $point-color: #fa822e;
 html {
   overflow: hidden;
+  font-size: 14px;
 }
 
 .background {
@@ -21,9 +22,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1500px;
-    height: 860px;
-    padding-right: 290px;
+    width: 1000px;
+    height: 600px;
+    padding-right: 180px;
     padding-bottom: 30px;
     background: url("./img/home.gif") center/cover no-repeat;
     background-size: cover;
@@ -31,11 +32,11 @@ html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     .wrapper {
       display: flex;
-      height: 650px;
+      height: 435px;
       .profile {
-        width: 300px;
+        width: 180px;
         height: 100%;
-        gap: 50px;
+        gap: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -50,30 +51,31 @@ html {
             .profileFeel {
               form {
                 select {
-                  cursor: pointer;
-                  width: 250px;
+                  width: 180px;
                   height: 30px;
                   text-align: center;
                   font-size: 1rem;
+                  cursor: pointer;
                 }
               }
             }
             .profileimg {
               margin-top: 20px;
-              width: 250px;
+              width: 180px;
               img {
                 width: 100%;
                 object-fit: cover;
               }
             }
             .profileMessage {
-              width: 250px;
+              width: 100%;
               height: 80px;
               margin-top: 20px;
+              font-size: 13px;
             }
             .profileMessageEdit {
               width: 100%;
-              height: 100px;
+              height: 80px;
             }
             .EditBtn {
               width: 40px;
@@ -89,8 +91,8 @@ html {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            width: 88%;
-            margin-top: 150px;
+            width: 100%;
+            margin-top: 30px;
             border-bottom: 1px solid #999;
             cursor: pointer;
             & > div:nth-child(1) {
@@ -112,7 +114,7 @@ html {
             flex-direction: column;
             gap: 4px;
             padding: 20px 6px;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             & > span:nth-child(1) {
               color: #999;
               b {
@@ -126,7 +128,7 @@ html {
         }
       }
       .contents {
-        width: 750px;
+        width: 550px;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -136,16 +138,17 @@ html {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 0 30px;
+          padding: 0 40px;
+          padding-right: 100px;
           .contentsTitle {
             display: flex;
-            gap: 50px;
+            gap: 10px;
             font-size: 1.4rem;
           }
 
           .contentsTitleEdit {
-            width: 400px;
-            height: 26px;
+            width: 270px;
+            height: 23px;
             &:focus {
               outline: none;
             }
@@ -165,7 +168,7 @@ html {
               right: 270px;
             }
             &:nth-of-type(2) {
-              right: 220px;
+              right: 230px;
             }
           }
           .titleEditBtn {
@@ -204,12 +207,12 @@ html {
         .navItems {
           position: absolute;
           top: 70px;
-          right: -154px;
+          right: -117px;
           display: flex;
           flex-direction: column;
           gap: 6px;
           .navItem {
-            width: 90px;
+            width: 85px;
             text-align: center;
             background: rgba($color: #ffffff, $alpha: 0.7);
             border: 1px solid $theme-color;

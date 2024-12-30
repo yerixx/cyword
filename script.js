@@ -67,23 +67,20 @@ const EditTitle = () => {
   // input 요소에 포커스를 자동으로 줘서 수정 가능하게 만듬
   inputElement.focus();
 
-  // 텍스트 길이 제한 (25자 이상 입력 방지)
   inputElement.addEventListener("input", () => {
     if (inputElement.value.length > 25) {
       inputElement.value = inputElement.value.slice(0, 25); // 25자 이상은 잘라냄
     }
   });
 
-  // 취소 버튼 생성
   cancelButton = document.createElement("button");
   cancelButton.innerText = "취소";
   cancelButton.className = "contentEditBtn";
 
   cancelButton.addEventListener("click", () => {
-    // 수정 취소 시 contentsTitle로 돌아가기
     contentsTitle.innerText = originalText;
     contentTop.replaceChild(contentsTitle, inputElement);
-    removeButtons(); // 버튼 제거
+    removeButtons();
   });
 
   // 저장 버튼 생성
@@ -122,14 +119,14 @@ const profileMessageEdit = document.querySelector(".profileMessageEdit");
 let originalText = profileMessage.innerText; // 원본 텍스트 저장
 
 const EditProfile = () => {
-  if (profileMessage.querySelector("input")) {
+  if (profileMessage.querySelector("textarea")) {
     return;
   }
 
   // 입력 필드 생성
-  const inputElement = document.createElement("input");
+  const inputElement = document.createElement("textarea");
   inputElement.className = "profileMessageEdit";
-  inputElement.type = "text";
+  inputElement.type = "textarea";
   inputElement.value = profileMessage.innerText;
 
   // 기존 텍스트를 빈 상태로 초기화
@@ -152,8 +149,8 @@ const EditProfile = () => {
   saveButton.className = "EditBtn";
 
   saveButton.addEventListener("click", () => {
-    originalText = inputElement.value; // 저장한 텍스트를 원본 텍스트로 업데이트
-    profileMessage.innerHTML = inputElement.value; // 프로필 메시지 업데이트
+    originalText = inputElement.value;
+    profileMessage.innerHTML = inputElement.value;
   });
 
   // 버튼들을 profileMessage에 추가
