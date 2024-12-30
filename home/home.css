@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   gap: 40px;
-  padding: 18px 60px 50px 240px;
+  padding: 18px 60px 50px 70px;
   overflow: hidden;
 }
 .contents .contentTop {

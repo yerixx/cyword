@@ -61,10 +61,8 @@ const EditTitle = () => {
   inputElement.className = "contentsTitleEdit";
   inputElement.value = originalText;
 
-  // contentsTitle을 input으로 교체
   contentTop.replaceChild(inputElement, contentsTitle);
 
-  // input 요소에 포커스를 자동으로 줘서 수정 가능하게 만듬
   inputElement.focus();
 
   inputElement.addEventListener("input", () => {

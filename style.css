@@ -68,8 +68,8 @@ html {
   cursor: pointer;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileimg {
-  margin-top: 20px;
-  width: 180px;
+  margin: 20px auto 0px;
+  width: 170px;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileimg img {
   width: 100%;
@@ -78,13 +78,13 @@ html {
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileMessage {
   width: 100%;
-  height: 80px;
-  margin-top: 20px;
+  height: 100px;
+  margin-top: 10px;
   font-size: 13px;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .profileMessageEdit {
   width: 100%;
-  height: 80px;
+  height: 90px;
 }
 .background .outBox .wrapper .profile .profileBody .profileTop .EditBtn {
   width: 40px;
@@ -152,7 +152,7 @@ html {
   font-size: 1.4rem;
 }
 .background .outBox .wrapper .contents .contentTop .contentsTitleEdit {
-  width: 270px;
+  width: 200px;
   height: 23px;
 }
 .background .outBox .wrapper .contents .contentTop .contentsTitleEdit:focus {
@@ -194,7 +194,7 @@ html {
 }
 .background .outBox .wrapper .contents .contentFrame {
   display: flex;
-  width: 720px;
+  width: 550px;
   height: 100%;
 }
 .background .outBox .wrapper .contents .contentFrame iframe {
